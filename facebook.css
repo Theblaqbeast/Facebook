@@ -1,0 +1,151 @@
+* {
+  background-color: #eeebeb;
+}
+
+.main-wrapper img {
+  height: 106px;
+  margin-left: -30px;
+  margin-top: 50px;
+}
+
+.main-wrapper {
+  margin-right: 120px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 180px;
+}
+
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+  color: black;
+  margin-top: -20px;
+}
+
+.form {
+  width: 400px;
+  height: 370px;
+  margin-top: -30px;
+  margin-right: 50px;
+  float: right;
+  border-radius: 12px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.form input {
+  font-style: Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  padding: 17px;
+  width: 332px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.email-container {
+  border-width: 0.01px;
+  border-color: rgb(170, 204, 255);
+  background-color: white;
+}
+
+.email-container:hover {
+  outline-color: #3b8bf5;
+  outline-style: outset;
+  outline-width: 1px;
+}
+
+.password-container {
+  border-width: 0.01px;
+  border-color: rgb(170, 204, 255);
+  background-color: white;
+}
+
+.password-container:hover {
+  outline-color: #3b8bf5;
+  outline-style: outset;
+  outline-width: 1px;
+}
+
+.log-in {
+  background-color: white;
+}
+
+button {
+  margin-top: 15px;
+  background-color: #1877f2;
+  padding: 16px;
+  width: 92%;
+  border-radius: 8px;
+  font-size: 18px;
+  border-style: none;
+  cursor: pointer;
+  font-weight: 700px;
+  font-size: 25px;
+  position: relative;
+  color: white;
+}
+
+button:hover {
+  transition: 0.1s;
+  outline-style: outset;
+  outline-width: 1px;
+  background-color: #3b8bf5;
+}
+
+.create-acct button {
+  background-color: #00a400;
+  width: 200px;
+  margin-top: 12px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 650;
+  position: relative;
+  font-size: 17px;
+}
+
+.create-acct {
+  background-color: white;
+}
+
+a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.create-acct button:hover {
+  transition: 0.1s;
+  outline-style: outset;
+  outline-width: 1px;
+  background-color: #4cc01a;
+}
+
+p {
+  margin-top: 40px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  width: 370px;
+  margin-top: 15px;
+}
